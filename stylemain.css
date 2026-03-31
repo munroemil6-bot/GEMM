@@ -29,7 +29,8 @@
   margin-bottom: 15px;     
   font-size: 32px;
   font-weight: bold;
-  align-self: center;
+  text-align: center;
+  
 }
 
 .about-values p{
