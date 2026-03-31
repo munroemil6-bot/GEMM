@@ -22,13 +22,13 @@
             box-shadow: rgb(0, 0, 0, 1);
             border: solid 1px black;
             padding: 1em;
-            margin: 40px;
+            margin: 55px;
             background-color: yellowgreen;
         }
         #softcard {
             border: solid black 1px;
             padding: 1em;
-            margin: 40px;
+            margin: 55px;
             background-color: blueviolet;
         }
         #photocard p {
@@ -49,20 +49,44 @@
         #softcard:hover {
             transform: scale(1.15);
         }
+        #photocard img:hover {
+            transform: scale(1.05);
+            transform: scaleX(1.15);
+        }
+        #softcard img:hover {
+            transform: scaleX(1.15);
+        }
+        p {
+            font-size: 18px;
+        }
+        .navbar {
+         background: linear-gradient(to right, #1f2933, #2563eb);
+        padding: 1em;
+        text-align: center;
 
+        position: relative;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+    .navbar a {
+    display: inline;
+    margin: 0 1em;
+}
 
 
     </style>
     <body>
         <nav class="navbar">
             <a href="GEMM.html">Home</a>
+            <a href="contact.html">Contacts</a>
             <a href="services.html">Services</a>
-            <a href="photography.html">Photography</a>
-            <a href="software.html">Software</a>
+
         </nav>
         <br><br>
         <h1> GEMM offers multiple services</h1>
-        <p> The following services are offered here at GEMM</p>
+        <p> The following services are offered here at GEMM.</p>
+        <p> Feel free to reach out through the contacts listed in the various linked websites</p>
         <br><br>
         <section class="service-container">
             <article id="photocard">
@@ -77,11 +101,11 @@
             </article>
             <article id="softcard">
                 <h2> Software development</h2>
-                
+                <ul>
                 <p> Here at GEMM we have a fully capable team of software engineers who 
                     <br><br>
-                    build and maintain websites at a fee</p>
-                <p> We offer fantastic full stack web development services from a very experienced team</p>
+                    build and maintain websites at a fee.</p>
+                <p> We offer fantastic full stack web development services from a very experienced team.</p>
                 <img src="software.jpeg" width="600px" height="350px">
                 <p> For contacts and more info visit our webpage
                     <a href="software.html">Softwareteam</a>
@@ -89,7 +113,7 @@
             </article>
         </section>
 
-             <footer>
+     <footer>
     <div class="footer-container">
 
       <!-- Company Info -->
@@ -103,8 +127,8 @@
         <h3>main links</h3>
         <ul>
             <li><a href="GEMM.html">Home</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-            <li><a href="Services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="services.html">Services</a></li>
         </ul>
       </div>
 

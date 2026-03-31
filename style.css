@@ -35,7 +35,6 @@
     color: #fff;
     padding: 2em;
     text-align: center;
-
     position: relative;
     width: 100%;
     height: min-content;
@@ -50,6 +49,7 @@
       background-color: #1e1e2f;
       color: #ffffff;
       padding: 40px 20px;
+      width: 100%;
     }
 
     .footer-container {
