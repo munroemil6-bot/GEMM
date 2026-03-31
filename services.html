@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title> GEMM </title>
+    </head>
+    <style>
+        h1 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 26px;
+        }
+        .service-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        #photocard {
+            box-shadow: rgb(0, 0, 0, 1);
+            border: solid 1px black;
+            padding: 1em;
+            margin: 40px;
+            background-color: yellowgreen;
+        }
+        #softcard {
+            border: solid black 1px;
+            padding: 1em;
+            margin: 40px;
+            background-color: blueviolet;
+        }
+        #photocard p {
+            font-size: 22px;
+        }
+        #softcard p {
+            font-size: 22px;
+        }
+        #photocard h2 {
+            font-size: 26px;
+        }
+        #softcard h2 {
+            font-size: 26px;
+        }
+        #photocard:hover {
+            transform: scale(1.15);
+        }
+        #softcard:hover {
+            transform: scale(1.15);
+        }
+
+
+
+    </style>
+    <body>
+        <nav class="navbar">
+            <a href="GEMM.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="photography.html">Photography</a>
+            <a href="software.html">Software</a>
+        </nav>
+        <br><br>
+        <h1> GEMM offers multiple services</h1>
+        <p> The following services are offered here at GEMM</p>
+        <br><br>
+        <section class="service-container">
+            <article id="photocard">
+                <h2> Photography</h2>
+                <p> We offer some fantastic photography and videography services here at GEMM.</p>
+                <p> Here at GEMM, our team is also fully capable of handling videography for events</p>
+                <p>Keres where you can get to see some of our work  </p>
+                <img src="photo.jpeg">
+                <p> For more images visit our department
+                    <a href="photography.html"><em>PICS</em></a>
+               </p>
+            </article>
+            <article id="softcard">
+                <h2> Software development</h2>
+                
+                <p> Here at GEMM we have a fully capable team of software engineers who 
+                    <br><br>
+                    build and maintain websites at a fee</p>
+                <p> We offer fantastic full stack web development services from a very experienced team</p>
+                <img src="software.jpeg" width="600px" height="350px">
+                <p> For contacts and more info visit our webpage
+                    <a href="software.html">Softwareteam</a>
+                </p>
+            </article>
+        </section>
+    </body>
+</html>
