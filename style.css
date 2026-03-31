@@ -38,6 +38,7 @@
 
     position: relative;
     width: 100%;
+    height: min-content;
 }
 
  .body {
@@ -45,7 +46,7 @@
       font-family: Arial, sans-serif;
     }
 
-    .footer {
+    footer {
       background-color: #1e1e2f;
       color: #ffffff;
       padding: 40px 20px;
